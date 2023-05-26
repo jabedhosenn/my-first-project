@@ -3,3 +3,8 @@ class HelloWorld {
         System.out.println("Hello, World!"); 
     }
 }
+
+public void square(int a) {
+  int square = a * a;
+  System.out.println("Square is: " + square);
+}
